@@ -3,16 +3,41 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.logo {
+  margin-bottom: 10px;
+}
+
 #services {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
 /* Carrousel*/
+.change-img {
+  width: 100%;
+  min-height: 300px;
+}
+.bannerContainer {
+  margin: 0 auto;
+  padding-top: 13em;
+}
+
+.form {
+  margin: 2em;
+}
+/*
 @media screen and (max-width: 700px) {
   .change-img {
     content: url(http://lorempixel.com/1600/1550);
   }
+}
+*/
+
+#who {
+  margin-top: 20px;
+  background-image: url("../images/fondo.png");
+  background-repeat: no-repeat;
+  font-size: small;
 }
 
 /* FORM CSS */
