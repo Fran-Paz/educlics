@@ -5,6 +5,7 @@ body {
 
 .logo {
   margin-bottom: 10px;
+  width: 20%;
 }
 
 #services {
@@ -33,11 +34,10 @@ body {
 }
 */
 
-#who {
+.who {
   margin-top: 20px;
   background-image: url("../images/fondo.png");
   background-repeat: no-repeat;
-  font-size: small;
 }
 
 /* FORM CSS */
