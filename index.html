@@ -41,106 +41,96 @@
     <title>EduClics</title>
   </head>
   <body>
-    <header id="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="index.html">
-          <img src="assets/images/educlics_logo.png" class="logo" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end navar"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#header"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#who">Conócenos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contáctanos</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <header id="header" class="">
+      <!-- NAVBAR-->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <a class="navbar-brand" href="#">
+            <img class="navbar_logo" src="assets/images/educlics_logo.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conocénos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!--CARRUSEL -->
-    <div class="bannerContainer">
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="assets/images/banner_1.png"
-              class="d-block w-100 change-img"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="assets/images/banner_2.png"
-              class="d-block w-100 change-img"
-              alt="..."
-            />
-          </div>
-          <!-- 
-          <div class="carousel-item">
-            <img
-              src="assets/images/3.jpg"
-              class="d-block w-100 change-img"
-              alt="..."
-            />
-          </div>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide carrusel"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/images/banner_1.png"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
-        -->
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item">
+          <img
+            src="assets/images/banner_2.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/banner_1.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
       </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
     <!--CONOCENOS-->
     <div class="who">
@@ -233,77 +223,123 @@
         </div>
       </div>
     </div>
+    <!-- FORM-->
+    <section class="mb-5 formulario">
+      <h4 class="mb-5 text-center"><strong>¡Contáctanos!</strong></h4>
 
-    <section class="mb-5">
-          <h4 class="mb-5 text-center"><strong>¡Contáctanos!</strong></h4>
-
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-6">
-              <form>
-                <!-- 2 column grid layout with text inputs for the first and last names -->
-                <div class="row mb-4">
-                  <div class="col">
-                    <div class="form-outline">
-                      <input type="text" id="form3Example1" class="form-control">
-                      <label class="form-label" for="form3Example1" style="margin-left: 0px;">First name</label>
-                    <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 68.8px;"></div><div class="form-notch-trailing"></div></div></div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form3Example1" class="form-control" />
+                  <label
+                    class="form-label"
+                    for="form3Example1"
+                    style="margin-left: 0px;"
+                    >First name</label
+                  >
+                  <div class="form-notch">
+                    <div class="form-notch-leading" style="width: 9px;"></div>
+                    <div class="form-notch-middle" style="width: 68.8px;"></div>
+                    <div class="form-notch-trailing"></div>
                   </div>
-                  <div class="col">
-                    <div class="form-outline">
-                      <input type="text" id="form3Example2" class="form-control">
-                      <label class="form-label" for="form3Example2" style="margin-left: 0px;">Last name</label>
-                    <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 68px;"></div><div class="form-notch-trailing"></div></div></div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form3Example2" class="form-control" />
+                  <label
+                    class="form-label"
+                    for="form3Example2"
+                    style="margin-left: 0px;"
+                    >Last name</label
+                  >
+                  <div class="form-notch">
+                    <div class="form-notch-leading" style="width: 9px;"></div>
+                    <div class="form-notch-middle" style="width: 68px;"></div>
+                    <div class="form-notch-trailing"></div>
                   </div>
                 </div>
-
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                  <input type="email" id="form3Example3" class="form-control">
-                  <label class="form-label" for="form3Example3" style="margin-left: 0px;">Email address</label>
-                <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
-
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                  <input type="password" id="form3Example4" class="form-control">
-                  <label class="form-label" for="form3Example4" style="margin-left: 0px;">Password</label>
-                <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 64.8px;"></div><div class="form-notch-trailing"></div></div></div>
-
-                <!-- Checkbox -->
-                <div class="form-check d-flex justify-content-center mb-4">
-                  <input class="form-check-input mr-2" type="checkbox" value="" id="form2Example3" checked="">
-                  <label class="form-check-label" for="form2Example3">
-                    Subscribe to our newsletter
-                  </label>
-                </div>
-
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">
-                  Sign up
-                </button>
-
-                <!-- Register buttons -->
-                <div class="text-center">
-                  <p>or sign up with:</p>
-                  <button type="button" class="btn btn-primary btn-floating mx-1">
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-
-                  <button type="button" class="btn btn-primary btn-floating mx-1">
-                    <i class="fab fa-google"></i>
-                  </button>
-
-                  <button type="button" class="btn btn-primary btn-floating mx-1">
-                    <i class="fab fa-twitter"></i>
-                  </button>
-
-                  <button type="button" class="btn btn-primary btn-floating mx-1">
-                    <i class="fab fa-github"></i>
-                  </button>
-                </div>
-              </form>
+              </div>
             </div>
-          </div>
-        </section>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form3Example3" class="form-control" />
+              <label
+                class="form-label"
+                for="form3Example3"
+                style="margin-left: 0px;"
+                >Email address</label
+              >
+              <div class="form-notch">
+                <div class="form-notch-leading" style="width: 9px;"></div>
+                <div class="form-notch-middle" style="width: 88.8px;"></div>
+                <div class="form-notch-trailing"></div>
+              </div>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form3Example4" class="form-control" />
+              <label
+                class="form-label"
+                for="form3Example4"
+                style="margin-left: 0px;"
+                >Password</label
+              >
+              <div class="form-notch">
+                <div class="form-notch-leading" style="width: 9px;"></div>
+                <div class="form-notch-middle" style="width: 64.8px;"></div>
+                <div class="form-notch-trailing"></div>
+              </div>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input
+                class="form-check-input mr-2"
+                type="checkbox"
+                value=""
+                id="form2Example3"
+                checked=""
+              />
+              <label class="form-check-label" for="form2Example3">
+                Subscribe to our newsletter
+              </label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">
+              Sign up
+            </button>
+
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p>or sign up with:</p>
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-google"></i>
+              </button>
+
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
+
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="page-footer font-small cyan darken-3">
@@ -365,38 +401,36 @@
     </footer>
     <!-- Footer -->
   </body>
-<script>
-  function validateForm() {document.getElementById('status').innerHTML = "Sending...";
-    formData = {
-        'name'     : $('input[name=name]').val(),
-        'email'    : $('input[name=email]').val(),
-        'subject'  : $('input[name=subject]').val(),
-        'message'  : $('textarea[name=message]').val()
-    };
+  <script>
+    function validateForm() {
+      document.getElementById("status").innerHTML = "Sending...";
+      formData = {
+        name: $("input[name=name]").val(),
+        email: $("input[name=email]").val(),
+        subject: $("input[name=subject]").val(),
+        message: $("textarea[name=message]").val(),
+      };
 
-
-   $.ajax({
-    url : "mail.php",
-    type: "POST",
-    data : formData,
-    success: function(data, textStatus, jqXHR)
-    {
-
-        $('#status').text(data.message);
-        if (data.code) //If mail was sent successfully, reset the form.
-        $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-    },
-    error: function (jqXHR, textStatus, errorThrown)
-    {
-        $('#status').text(jqXHR);
+      $.ajax({
+        url: "mail.php",
+        type: "POST",
+        data: formData,
+        success: function (data, textStatus, jqXHR) {
+          $("#status").text(data.message);
+          if (data.code)
+            //If mail was sent successfully, reset the form.
+            $("#contact-form")
+              .closest("form")
+              .find("input[type=text], textarea")
+              .val("");
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+          $("#status").text(jqXHR);
+        },
+      });
     }
-});
-
-}
   </script>
 
-
-  
   <!-- SMOOTH SCROLL-->
   <script>
     AOS.init();
