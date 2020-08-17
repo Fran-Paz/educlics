@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  text-align: justify;
 }
 
 .navbar_logo {
@@ -26,6 +27,9 @@ body {
   margin-top: 20px;
   background-image: url("../images/fondo.png");
   background-repeat: no-repeat;
+}
+.who_image {
+  width: 50%;
 }
 /*
 FORMULARIO
