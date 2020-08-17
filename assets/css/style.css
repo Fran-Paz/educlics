@@ -23,6 +23,9 @@ body {
   margin: 2em;
 }
 
+.who_header {
+  margin: 1em;
+}
 .who {
   margin-top: 20px;
   background-image: url("../images/fondo.png");
