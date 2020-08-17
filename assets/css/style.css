@@ -13,9 +13,12 @@ body {
 
 .navbar_logo {
   margin-bottom: 10px;
-  width: 15%;
+  width: 10%;
 }
 
+.navbar_logo_mobile {
+  width: 55%;
+}
 #services {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -47,20 +50,22 @@ footer {
 .who {
   margin-top: 20px;
   background-image: url("../images/fondo.png");
-  background-repeat: no-repeat;
 }
 .who_image {
   width: 50%;
+}
+.who_are_we {
+  margin: 5px;
 }
 /*
 FORMULARIO
  */
 .formulario {
-  margin: 0 20px 0 20px;
+  margin: 3em;
 }
 
 .btn-primary {
-  background-color: #51c1e4 !important;
+  background-color: #3663ad !important;
 }
 
 /* change the color and bg color of active or hovered links */
